@@ -5,7 +5,7 @@
 [![NPM downloads][npm-downloads]][npm-url]
 [![MIT License][license-image]][license-url]
 
-> Dynamically load assets into your views from your `rev-manifest.json` manifest revision file (e.g. `<script src="{{ manifest('foo.js'); }}"></script>` returns `<script src="foo-0775041dd4.js"></script>` when rendered).
+> Dynamically load assets into your views from your `rev-manifest.json` manifest revision file (e.g. `<script src="{{ manifest('foo.js'); }}"></script>` returns `<script src="/foo-0775041dd4.js"></script>` when rendered).
 >
 > **Works with any templating engine**, such as [jade][jade], [ejs][ejs], or my favorite right now, [nunjucks][nunjucks].  Inspired by [express-rev][express-rev] and built for [koa@next][koa-next].
 
