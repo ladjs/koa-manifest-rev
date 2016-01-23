@@ -1,0 +1,58 @@
+{
+  "name": "koa-manifest-rev",
+  "version": "0.0.1",
+  "description": "Dynamically load assets into your views from your `rev-manifest.json` manifest revision file",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "npm run compile",
+    "lint": "eslint src",
+    "compile": "babel src --modules common --out-dir lib",
+    "watch": "babel src --watch --modules common --out-dir lib --source-maps",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niftylettuce/koa-manifest-rev.git"
+  },
+  "keywords": [
+    "koa",
+    "manifest",
+    "rev",
+    "asset",
+    "bundle",
+    "pipeline",
+    "revision",
+    "gulp",
+    "gulp-rev",
+    "gulp-rev-all",
+    "jade",
+    "ejs",
+    "nunjucks",
+    "views",
+    "render",
+    "dynamic",
+    "uglify",
+    "concat",
+    "minify",
+    "optimize",
+    "optimization",
+    "optipng",
+    "css",
+    "js",
+    "script",
+    "loader"
+  ],
+  "author": "Nick Baugh <niftylettuce@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niftylettuce/koa-manifest-rev/issues"
+  },
+  "homepage": "https://github.com/niftylettuce/koa-manifest-rev#readme",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-eslint": "^4.1.6",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "eslint": "^1.10.3"
+  }
+}
