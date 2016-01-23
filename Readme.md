@@ -22,7 +22,7 @@ npm install --save koa-manifest-rev koa@next
 
 1. Import (or require) the package, and then include the middleware.
 
-```bash
+```js
 import Koa from 'koa';
 import koaManifestRev from 'koa-manifest-rev';
 import path from 'path';
