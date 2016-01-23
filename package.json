@@ -1,6 +1,6 @@
 {
   "name": "koa-manifest-rev",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dynamically load assets into your views from your `rev-manifest.json` manifest revision file",
   "main": "lib/index.js",
   "scripts": {
