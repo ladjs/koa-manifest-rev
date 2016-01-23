@@ -25,7 +25,7 @@ export default function (opts) {
     ctx.state.manifest = str => {
       let output = opts.prepend + str;
       try {
-        output = opts.prepend + require(opts.manifest)[str];
+        output = opts.prepend + (require(opts.manifest)[str] || str);
       } catch (err ) {}
       return output;
     }
