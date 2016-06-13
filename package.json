@@ -1,7 +1,7 @@
 {
   "name": "koa-manifest-rev",
   "description": "Dynamically load assets into your views from your `rev-manifest.json` manifest revision file",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "author": "Nick Baugh <niftylettuce@gmail.com>",
   "bugs": {
     "url": "https://github.com/niftylettuce/koa-manifest-rev/issues"
