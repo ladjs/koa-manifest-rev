@@ -21,7 +21,7 @@ export default function (opts) {
 
   opts.prepend = opts.prepend || '/';
 
-  return async function koaManifestRev(ctx, next) {
+  return function koaManifestRev(ctx, next) {
     ctx.state.manifest = str => {
       let output = opts.prepend + str;
       try {
@@ -29,7 +29,7 @@ export default function (opts) {
       } catch (err ) {}
       return output;
     }
-    await next();
+    return next();
   }
 
 }
