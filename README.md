@@ -1,5 +1,7 @@
 # koa-manifest-rev
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/niftylettuce/koa-manifest-rev.svg)](https://greenkeeper.io/)
+
 [![build status](https://semaphoreci.com/api/v1/niftylettuce/koa-manifest-rev/branches/master/shields_badge.svg)](https://semaphoreci.com/niftylettuce/koa-manifest-rev)
 [![code coverage](https://img.shields.io/codecov/c/github/niftylettuce/koa-manifest-rev.svg)](https://codecov.io/gh/niftylettuce/koa-manifest-rev)
 [![code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
